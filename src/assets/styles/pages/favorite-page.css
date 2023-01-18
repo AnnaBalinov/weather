@@ -1,0 +1,14 @@
+.favorite-container {
+    text-align: center;
+}
+
+.favorite-container .title {
+    padding-top: 22px;
+    font-family: workSans-semibold, Helvetica, sans-serif;
+    width: 100%;
+}
+
+.favorite-container .msg {
+    font-style: oblique;
+    margin: 42px;
+}

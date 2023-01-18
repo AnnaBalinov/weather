@@ -1,0 +1,29 @@
+.forecast-list-container {
+    min-height: 384px;
+    width: 100%;
+    padding: 12px 22px;
+    display: flex;
+    gap: 12px;
+    justify-content: space-between;
+    margin-bottom: 22px;
+}
+
+.forecast-list-container.scrollbar {
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+.forecast-list-container.scrollbar::-webkit-scrollbar {
+    border-radius: 12px;
+    margin: 0 22px;
+}
+
+.forecast-list-container.scrollbar::-webkit-scrollbar-track {
+    border-radius: 12px;
+    margin: 0 22px;
+}
+
+.forecast-list-container.scrollbar::-webkit-scrollbar-thumb {
+    border-radius: 12px;
+    background-color: var(--mainYellow);
+}

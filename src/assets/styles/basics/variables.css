@@ -1,0 +1,18 @@
+:root {
+  --white: #ffff;
+  --black: #0c0c0c;
+  --red: #ec5555;
+
+  --darkBlueHeader: #0c1136;
+  --darkGrayBackground: #6a7982;
+
+  --mainYellow: #eec710;
+  
+  --lightBlue: #3db6e1;
+  --lightGrayBorder: #e5e5e5;
+
+  --transparentWhite: #ffffff60;
+  --transparentBlack: #00000060;
+
+  --boxShadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}

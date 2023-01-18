@@ -1,0 +1,57 @@
+.favorite-preview-container {
+    padding: 22px;
+    height: 360px;
+    min-width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 8px;
+    box-shadow: var(--boxShadow);
+    position: relative;
+    cursor: pointer;
+}
+
+.favorite-preview-container .favorite-remove-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 22px;
+    cursor: pointer;
+    font-size: 22px;
+    color: var(--red)
+}
+
+.favorite-preview-container .info .name {
+    font-size: 26px;
+    margin-bottom: 4px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.favorite-preview-container .info {
+    font-size: 14px;
+}
+
+.favorite-preview-container .temperature {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 4px;
+}
+
+.favorite-preview-container .temperature .num {
+    font-size: 26px;
+}
+
+.favorite-preview-container .temperature .unit {
+    font-size: 12px;
+}
+
+.favorite-preview-container .weather {
+    font-size: 28px;
+}
+
+.favorite-preview-container .weather .txt {
+    font-size: 14px;
+}

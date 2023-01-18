@@ -1,0 +1,8 @@
+.favorite-list-container {
+    margin: 22px;
+    margin-top: 42px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+    justify-content: center;
+}

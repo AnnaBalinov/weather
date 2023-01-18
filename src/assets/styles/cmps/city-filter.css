@@ -1,0 +1,87 @@
+.city-filter-container {
+    /* background-color: antiquewhite; */
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.city-filter-container .material-icons {
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.city-filter-container .filter-container {
+    position: relative;
+}
+
+.filter-container input {
+    padding: 0 12px;
+    height: 40px;
+    /* width: 290px; */
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    box-shadow: var(--boxShadow);
+    text-transform: capitalize;
+}
+
+.city-filter-container .active input {
+    border-radius: 8px 8px 0 0;
+}
+
+.filter-container input::-webkit-outer-spin-button,
+.filter-container input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.filter-container input:focus {
+    outline: none;
+}
+
+.autocomplete-list {
+    background-color: var(--white);
+    color: var(--black);
+    width: 290;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    border-radius: 0 0 8px 8px;
+}
+
+.autocomplete-list :not(:last-child) {
+    border-bottom: 1px solid var(--lightGrayBorder);
+}
+
+.autocomplete-list .city-name {
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.autocomplete-list .city-name:hover {
+    background-color: var(--mainYellow)
+}
+
+.autocomplete-list :last-child:hover {
+    border-radius: 0 0 8px 8px;
+}
+
+@media screen and (min-width: 410px) {
+    .filter-container input {
+        width: 290px;
+    }
+
+}
+
+@media screen and (max-width: 410px) {
+    .filter-container input {
+        width: 200px;
+    }
+}
