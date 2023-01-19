@@ -1,6 +1,4 @@
 # Weather
-
-## Description
 Fully responsive web app allows users to easily search for 
 and view real-time weather forecasts for cities around the world. 
 The app features an intuitive city search with autocomplete functionality, 	
