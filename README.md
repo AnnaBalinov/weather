@@ -8,8 +8,7 @@ and users can save their favorite cities to easily access their weather forecast
 - ReactJS
 - Redux
 - HTML
-- CSS
-- Sass
+- SCSS
 - AccuWeather-API
 
 ## Link
